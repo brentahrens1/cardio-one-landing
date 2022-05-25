@@ -3,6 +3,11 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <div className='home'>
+      <Head>
+        <title>CardioOne | Landing Page</title>
+        <meta name="description" content="Website coming soon." />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className='home__logo'>
         <img className='heart' src="/imgs/heart.png" alt="CardioOne Logo" />
         <img className='cardio-logo' src="/imgs/cardio-black.png" alt="CardioOne Logo" />
