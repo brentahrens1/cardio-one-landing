@@ -1,0 +1,66 @@
+.home {
+    padding: 60px 40px;
+    background-color: #B3E7F2;
+    height: 100vh;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+
+        .heart {
+            width: 3rem;
+        }
+        .cardio-logo {
+            width: 12rem;
+            margin-left: 1rem;
+        }
+    }
+
+    &__content {
+        max-width: 750px;
+        margin-top: 4rem;
+
+        h1 {
+            font-size: 85px;
+            line-height: 88px;
+            margin: 0;
+            font-weight: 400;
+
+            @include atSmallMedium {
+                font-size: 45px;
+                line-height: 52px;
+            }
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 3rem;
+
+            span {
+                font-family: 'pt-med';
+            }
+
+            @include atSmallMedium {
+                font-size: 1rem;
+                line-height: 26px;
+            }
+        }
+
+        button {
+            border: 1px solid #000000;
+            border-radius: 30px;
+            background: transparent;
+            padding: 15px 40px;
+            min-width: 250px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: all 200ms ease;
+
+            &:hover {
+                background-color: #000000;
+                color: #ffffff;
+                transition: all 200ms ease;
+            }
+        }
+    }
+}
