@@ -12,13 +12,13 @@ body {
 }
 @font-face {
   font-family: 'pt-med';
-  src: url('/fonts/morns-med.woff2');
+  src: url('/fonts/norms-med.woff2');
   font-weight: 400;
   font-style: normal;
 }
 
-h1 {
-  font-family: 'pt-reg';
+h1, span {
+  font-family: 'pt-med';
 }
 
 p, button {
