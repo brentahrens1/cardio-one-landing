@@ -25,6 +25,8 @@
             line-height: 88px;
             margin: 0;
             font-weight: 400;
+            animation: fade-down 800ms ease-in;
+            transition: all 800ms ease;
 
             @include atSmallMedium {
                 font-size: 45px;
@@ -35,6 +37,7 @@
         p {
             font-size: 1.5rem;
             margin-bottom: 3rem;
+            animation: fade-right 800ms ease-in;
 
             span {
                 font-family: 'pt-med';
@@ -55,6 +58,7 @@
             cursor: pointer;
             font-size: 1.1rem;
             transition: all 200ms ease;
+            animation: fade-up 800ms ease-in;
 
             &:hover {
                 background-color: #000000;
@@ -72,6 +76,26 @@
     }
     to {
         transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes fade-down {
+    from {
+        transform: translateY(-40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes fade-right {
+    from {
+        transform: translateX(-40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
         opacity: 1;
     }
 }
