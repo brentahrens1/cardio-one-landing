@@ -113,6 +113,12 @@ form {
     display: flex;
     flex-direction: column;
 
+    .checkboxes {
+        display: flex;
+        align-items: center;
+        margin-bottom: .5rem;
+    }
+
     .names {
         display: flex;
         align-items: center;
@@ -131,6 +137,27 @@ form {
                 width: 100%;
             }
         }
+    }
+
+    .method-frame {
+        display: flex;
+        align-items: center;
+        margin-bottom: .5rem;
+
+        &.frame-1 {
+            margin-right: 10px;
+        }
+    }
+
+    .method {
+        margin: 0;
+        margin-right: .3rem;
+    }
+
+    .method-input {
+        width: 17px;
+        height: 17px;
+        margin: 0;
     }
 
     input {

@@ -27,8 +27,18 @@ const ContactUs = () => {
             <input type="text" name="last_name" />
         </div>
       </div>
-      <label>Phone or Email</label>
-      <input type="text" name="user_email" />
+      <label>Preferred method of contact?</label>
+      <div className='checkboxes'>
+        <div className='method-frame frame-1'>
+            <label className='method' for="phone">Phone</label>
+            <input className='method-input' type="checkbox" id="phone" name="phone" value="Phone" />
+        </div>
+        <div className='method-frame'>
+            <label className='method' for="email">Email</label>
+            <input className='method-input' type="checkbox" id="email" name="email" value="Email" />
+        </div>
+      </div>
+      {/* <input type="text" name="user_email" /> */}
       <label>Clinic Name</label>
       <input type="text" name="user_email" />
       <label>Interest in speaking with CardioOne</label>
