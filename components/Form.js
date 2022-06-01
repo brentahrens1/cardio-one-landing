@@ -31,7 +31,7 @@ const ContactUs = () => {
       <input type="text" name="user_email" />
       <label>Clinic Name</label>
       <input type="text" name="user_email" />
-      <label>Interest in speaking with C1</label>
+      <label>Interest in speaking with CardioOne</label>
       <textarea name="message" />
       <input type="submit" value="Send" />
     </form>
