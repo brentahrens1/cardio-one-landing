@@ -30,11 +30,11 @@ const ContactUs = () => {
       <label>Preferred method of contact?</label>
       <div className='checkboxes'>
         <div className='method-frame frame-1'>
-            <label className='method' for="phone">Phone</label>
+            <label className='method' htmlFor="phone">Phone</label>
             <input className='method-input' type="checkbox" id="phone" name="phone" value="Phone" />
         </div>
         <div className='method-frame'>
-            <label className='method' for="email">Email</label>
+            <label className='method' htmlFor="email">Email</label>
             <input className='method-input' type="checkbox" id="email" name="email" value="Email" />
         </div>
       </div>
