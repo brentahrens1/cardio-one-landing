@@ -1,7 +1,7 @@
 .home {
     padding: 60px 40px;
     background-color: #B3E7F2;
-    height: 100vh;
+    height: 100%;
 
     &__logo {
         display: flex;
@@ -98,5 +98,58 @@
     to {
         transform: translateX(0);
         opacity: 1;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    .names {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @include atSmallMedium {
+            flex-direction: column;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            width: 49%;
+
+            @include atSmallMedium {
+                width: 100%;
+            }
+        }
+    }
+
+    input {
+        padding: 15px;
+        margin-bottom: 1rem;
+        border-radius: 8px;
+        border: none;
+    }
+
+    textarea {
+        min-height: 200px;
+        margin-bottom: 1rem;
+        border-radius: 8px;
+        border: none;
+    }
+
+    label {
+        margin-bottom: 5px;
+    }
+
+    input[type=submit] {
+        max-width: 200px;
+        background-color: #000000;
+        color: #ffffff;
+        font-size: 1rem;
+        cursor: pointer;
+        text-transform: uppercase;
+        margin-top: 1rem;
     }
 }

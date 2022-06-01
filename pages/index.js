@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Form from '../components/Form'
 
 export default function Home() {
   return (
@@ -16,8 +17,9 @@ export default function Home() {
         <h1>A new kind of</h1>
         <h1>physician-centric</h1>
         <h1>partnership</h1>
-        <p>We <span>partner</span> with independent cardiology groups <span>to invest</span> in their long-term success with capital, staff, technology, expertise, and best practices <span>to excel</span> in a rapidly changing environment and deliver superior clinical outcomes.</p>
-        <button><a href="mailto:info@cardioone.com" target="_blank" rel="noreferrer">Contact Us</a></button>
+        <p><span>We invest</span> capital, staff, technology, expertise, and best practices <span>alongside independent cardiologists to protect their clinical independence</span> in a rapidly consolidating and increasingly competitive environment.</p>
+        <Form />
+        {/* <button><a href="mailto:info@cardioone.com" target="_blank" rel="noreferrer">Contact Us</a></button> */}
       </div>
     </div>
   )
