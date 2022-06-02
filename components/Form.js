@@ -27,16 +27,18 @@ const ContactUs = () => {
             <input type="text" name="last_name" />
         </div>
       </div>
+      <label>Email or Phone Number</label>
+      <input type="text" name="last_name" />
       <label>Preferred method of contact?</label>
       <div className='checkboxes'>
-        <div className='method-frame frame-1'>
-            <label className='method' htmlFor="phone">Phone</label>
-            <input className='method-input' type="checkbox" id="phone" name="phone" value="Phone" />
-        </div>
-        <div className='method-frame'>
-            <label className='method' htmlFor="email">Email</label>
-            <input className='method-input' type="checkbox" id="email" name="email" value="Email" />
-        </div>
+        <label class="container">Email
+            <input type="radio" name="radio" />
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">Phone
+            <input type="radio" name="radio" />
+            <span class="checkmark"></span>
+        </label>
       </div>
       {/* <input type="text" name="user_email" /> */}
       <label>Clinic Name</label>
