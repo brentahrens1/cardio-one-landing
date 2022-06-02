@@ -31,13 +31,13 @@ const ContactUs = () => {
       <input type="text" name="last_name" />
       <label>Preferred method of contact?</label>
       <div className='checkboxes'>
-        <label class="container">Email
+        <label className="container">Email
             <input type="radio" name="radio" />
-            <span class="checkmark"></span>
+            <span className="checkmark"></span>
         </label>
-        <label class="container">Phone
+        <label className="container">Phone
             <input type="radio" name="radio" />
-            <span class="checkmark"></span>
+            <span className="checkmark"></span>
         </label>
       </div>
       {/* <input type="text" name="user_email" /> */}
