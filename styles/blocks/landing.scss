@@ -223,7 +223,7 @@ form {
     }
 
     input[type=submit] {
-        border: 1px solid #000000 !important;
+        border: 1px solid #000000;
         border-radius: 30px;
         background: transparent;
         padding: 15px 40px;
@@ -233,6 +233,7 @@ form {
         transition: all 200ms ease;
         animation: fade-up 800ms ease-in;
         max-width: 250px;
+        color: #000000 !important;
 
         &:hover {
             background-color: #000000;
