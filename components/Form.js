@@ -20,16 +20,24 @@ const ContactUs = () => {
       <div className='names'>
         <div>
             <label>First Name</label>
-            <input type="text" name="first_name" />
+            <input type="text" name="first_name" required />
         </div>
         <div>
             <label>Last Name</label>
-            <input type="text" name="last_name" />
+            <input type="text" name="last_name" required />
         </div>
       </div>
-      <label>Email or Phone Number</label>
-      <input type="text" name="last_name" />
-      <label>Preferred method of contact?</label>
+      <div className='names'>
+        <div>
+            <label>Email</label>
+            <input type="text" name="last_name" required />
+        </div>
+        <div>
+            <label>Phone Number</label>
+            <input type="text" name="last_name" required />
+        </div>
+      </div>
+      <label>Preferred method of contact</label>
       <div className='checkboxes'>
         <label className="container">Email
             <input type="radio" name="radio" />
@@ -42,9 +50,9 @@ const ContactUs = () => {
       </div>
       {/* <input type="text" name="user_email" /> */}
       <label>Clinic Name</label>
-      <input type="text" name="user_email" />
+      <input type="text" name="user_email" required />
       <label>Interest in speaking with CardioOne</label>
-      <textarea name="message" />
+      <textarea name="message" required />
       <input type="submit" value="Send" />
     </form>
   );
