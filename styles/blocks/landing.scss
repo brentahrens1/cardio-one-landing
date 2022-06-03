@@ -65,10 +65,11 @@
             font-size: 1.1rem;
             transition: all 200ms ease;
             animation: fade-up 800ms ease-in;
+            color: #000000 !important;
 
             &:hover {
                 background-color: #000000;
-                color: #ffffff;
+                color: #ffffff !important;
                 transition: all 200ms ease;
             }
 
@@ -222,7 +223,7 @@ form {
     }
 
     input[type=submit] {
-        border: 1px solid #000000;
+        border: 1px solid #000000 !important;
         border-radius: 30px;
         background: transparent;
         padding: 15px 40px;
@@ -235,7 +236,7 @@ form {
 
         &:hover {
             background-color: #000000;
-            color: #ffffff;
+            color: #ffffff !important;
             transition: all 200ms ease;
         }
     }
