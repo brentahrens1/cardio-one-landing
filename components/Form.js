@@ -43,7 +43,7 @@ const ContactUs = () => {
                 </div>
                 <div>
                     <label>Phone Number</label>
-                    <input type="text" name="phone" required />
+                    <input type="tel" name="phone" placeholder='555-555-5555' pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
                 </div>
             </div>
             <label>Preferred method of contact</label>
