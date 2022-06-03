@@ -2,6 +2,7 @@
     padding: 60px 40px;
     background-color: #B3E7F2;
     height: 100vh;
+    min-height: 100vh;
 
     &.home-open {
         height: 100%;
@@ -213,6 +214,7 @@ form {
         margin-bottom: 1rem;
         border-radius: 8px;
         border: none;
+        padding: 15px;
     }
 
     label {
