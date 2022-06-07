@@ -70,7 +70,7 @@ const ContactUs = () => {
                 </div>
             </div>
             <label>Practice Size</label>
-            <select name="practice-size" id="practice-size">
+            <select name="practice-size" id="practice-size" required>
                 <option>Please select your practice size</option>
                 <option value="0-5">0-5</option>
                 <option value="5-10">5-10</option>
