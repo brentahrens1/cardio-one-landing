@@ -57,10 +57,29 @@ const ContactUs = () => {
                     <span className="checkmark"></span>
                 </label>
             </div>
-            {/* <input type="text" name="user_email" /> */}
-            <label>Clinic Name</label>
+            <label>Practice Name</label>
             <input type="text" name="clinic" required />
-            <label>Interest in speaking with CardioOne</label>
+            <div className='names'>
+                <div>
+                    <label>City</label>
+                    <input type="text" name="city" required />
+                </div>
+                <div>
+                    <label>State</label>
+                    <input type="text" name="state" required />
+                </div>
+            </div>
+            <label>Practice Size</label>
+            <select name="practice-size" id="practice-size">
+                <option>Please select your practice size</option>
+                <option value="0-5">0-5</option>
+                <option value="5-10">5-10</option>
+                <option value="10-20">10-20</option>
+                <option value="20-50">20-50</option>
+                <option value="50+">50+</option>
+            </select>
+            {/* <input type="text" name="user_email" /> */}
+            <label>Anything else you want us to know</label>
             <textarea name="message" required />
             <input type="submit" value="Send" />
         </form>

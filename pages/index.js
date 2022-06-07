@@ -18,9 +18,9 @@ export default function Home() {
       </div>
       <div className='home__content'>
         <h1>A new kind of</h1>
-        <h1>physician-centric</h1>
-        <h1>partnership</h1>
-        <p><span>We invest</span> capital, staff, technology, expertise, and best practices <span>alongside independent cardiologists to protect their clinical independence</span> in a rapidly consolidating and increasingly competitive environment.</p>
+        <h1>partner for independent</h1>
+        <h1>cardiologists</h1>
+        <p>We invest alongside our partners, providing the capital, staff, technology, and expertise needed to excel in a rapidly changing and increasingly competitive environment.</p>
         {
           formOpen && <Form />
         }

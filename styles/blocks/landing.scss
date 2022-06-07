@@ -203,11 +203,15 @@ form {
         background: white;
       }
 
-    input {
+    input, select {
         padding: 15px;
         margin-bottom: 1rem;
         border-radius: 8px;
         border: none;
+    }
+
+    select {
+        padding-right: 30px;
     }
 
     textarea {
