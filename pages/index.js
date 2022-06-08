@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className={`home ${formOpen ? 'home-open' : ''}`}>
       <Head>
-        <title>CardioOne | Landing Page</title>
+        <title>CardioOne</title>
         <meta name="description" content="Website coming soon." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
