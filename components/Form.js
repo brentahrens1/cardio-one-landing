@@ -71,7 +71,7 @@ const ContactUs = () => {
             </div>
             <label>Practice Size</label>
             <select name="practice-size" id="practice-size" required>
-                <option>Please select your practice size</option>
+                <option>Please select # of doctors in your practice</option>
                 <option value="0-5">0-5</option>
                 <option value="5-10">5-10</option>
                 <option value="10-20">10-20</option>
